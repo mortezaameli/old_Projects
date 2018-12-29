@@ -1,5 +1,4 @@
-This project is my university Thesis:
-Front-end : HTML/CSS/Javascript/jQuery
-Back-end  : PHP
-
-project report is attached(report.pdf)
+<p>This project is my <b>university Thesis</b>:</p>
+<p>Front-end : HTML/CSS/Javascript/jQuery</p>
+<p>Back-end  : PHP</p>
+<p>project report is attached(<b>report.pdf</b>)</p>
