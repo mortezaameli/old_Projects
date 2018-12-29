@@ -8,30 +8,33 @@ Used Symbol:
 <p>X  :  The position where boxes are located</p>
 -------------------------------------------
 
-Input test case:
-############
+<p>Input test case:</p>
+<p>
+############<br />
 #X.......#.#<br />
 ##.#.#...#.#<br />
 #S....@...##<br />
 ##.#.#..#..#<br />
 ############<br />
+</p>
 -------------------------------------------
 
-Output :
-The Problem solved with 3 search algorithm: BFS, DFD, HEURISTIC
-
+<p>Output :</p>
+<p>The Problem solved with 3 search algorithm: BFS, DFD, HEURISTIC</p>
+<p>
 ############
 #@S......#.#
 ##.#.#...#.#
 #.........##
 ##.#.#..#..#
 ############
+</p>
 
-BFS:
+<p>BFS:</p>
 Sequence of Activity: RRRRRDRUURULLLLLL
 
-DFS:
+<p>DFS:</p>
 Sequence of Activity: RRRRRLLLLUURRRRRRDDLDLUURULLLLL
 
-HEURISTIC:
+<p>HEURISTIC:</p>
 Sequence of Activity: RRRRRLLLLUURRRRRRDDLDLUURULLLLL
