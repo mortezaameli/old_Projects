@@ -1,11 +1,14 @@
 *Sokoban Game*
 -------------------------------------------
 
-Used Symbol:
-<p>#  :  Wall</p>
-<p>.  :  Empty space</p>
-<p>@  :  Box</p>
-<p>X  :  The position where boxes are located</p>
+<p>Used Symbol:</p>
+<kbd>
+#  :  Wall<br />
+.  :  Empty space<br />
+@  :  Box<br />
+X  :  The position where boxes are located<br />
+</kbd>
+<br />
 -------------------------------------------
 
 <p>Input test case:</p>
@@ -17,24 +20,26 @@ Used Symbol:
 ##.#.#..#..#<br />
 ############<br />
 </kbd>
+<br />
 -------------------------------------------
 
 <p>Output :</p>
 <p>The Problem solved with 3 search algorithm: BFS, DFD, HEURISTIC</p>
-<p>
-############
-#@S......#.#
-##.#.#...#.#
-#.........##
-##.#.#..#..#
-############
-</p>
+<kbd>
+############<br />
+#@S......#.#<br />
+##.#.#...#.#<br />
+#.........##<br />
+##.#.#..#..#<br />
+############<br />
+</kbd>
+<br />
 
-<p>BFS:</p>
-Sequence of Activity: RRRRRDRUURULLLLLL
-
-<p>DFS:</p>
-Sequence of Activity: RRRRRLLLLUURRRRRRDDLDLUURULLLLL
-
-<p>HEURISTIC:</p>
-Sequence of Activity: RRRRRLLLLUURRRRRRDDLDLUURULLLLL
+<p><b>BFS:</b></p>
+<p>Sequence of Activity: RRRRRDRUURULLLLLL</p>
+<br />
+<p><b>DFS:</b></p>
+<p>Sequence of Activity: RRRRRLLLLUURRRRRRDDLDLUURULLLLL</p>
+<br />
+<p><b>HEURISTIC:</b></p>
+<p>Sequence of Activity: RRRRRLLLLUURRRRRRDDLDLUURULLLLL</p>
