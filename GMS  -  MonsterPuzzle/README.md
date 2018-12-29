@@ -1,5 +1,4 @@
-*Mnster Puzzle*
+<b>*Mnster Puzzle*</b>
 
-This Project is a graphical puzzle game designed in GameMaker Studio engine.
-
-The game runs on two Windows and Android platforms.
+<p>This Project is a graphical <b>puzzle</b> game designed in <b>GameMaker Studio</b> engine.</p>
+<p>The game runs on two Windows and Android platforms.</p>
