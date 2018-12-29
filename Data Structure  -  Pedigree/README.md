@@ -1,5 +1,5 @@
-This is a data structure projects.
+<p>This is a <b>data structure</b> projects.</p>
 
-In this project we use Linked list to create a Tree structure and make Pedigree.
+<p>In this project we use <b>Linked list</b> to create a <b>Tree</b> structure and make </b>Pedigree</b>.</p>
 
-With Pedigree we can search in ancestors and descendants for a person.
+<p>With Pedigree we can search in ancestors and descendants for a person.</p>
