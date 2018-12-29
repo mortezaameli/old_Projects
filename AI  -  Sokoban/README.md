@@ -9,7 +9,6 @@
 X  :  The position where boxes are located<br />
 </kbd>
 <br />
--------------------------------------------
 
 <p>Input test case:</p>
 <kbd>
@@ -21,7 +20,6 @@ X  :  The position where boxes are located<br />
 ############<br />
 </kbd>
 <br />
--------------------------------------------
 
 <p>Output :</p>
 <p>The Problem solved with 3 search algorithm: BFS, DFD, HEURISTIC</p>
@@ -35,6 +33,8 @@ X  :  The position where boxes are located<br />
 </kbd>
 <br />
 
+<br />
+<br />
 <p><b>BFS:</b></p>
 <p>Sequence of Activity: RRRRRDRUURULLLLLL</p>
 <br />
