@@ -1,9 +1,6 @@
-*Bobby Carrot*
+<b>*Bobby Carrot*</b>
 
-Tip : This project use openBGI library to diplay graphical shpae.
-	  and most file in src folder related to openBGI library.
+<p>Tip : This project use <b>openBGI</b> library to diplay graphical shpae. and most file in src folder related to openBGI library.</P>
 
-This game is a puzzle game.
-The object of which is to collect all of the carrots in an area,
-and then reach a point on the map that progresses the player.
-
+<p>This game is a <b>puzzle</b> game.</p>
+<p>The object of which is to collect all of the carrots in an area, and then reach a point on the map that progresses the player.<p>
