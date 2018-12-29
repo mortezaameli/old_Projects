@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">کتابچه</string>
+    <string name="txtLogo">کتابچه</string>
+    <string name="logo_font_name">BKAJ.TTF</string>
+    <string name="about_me_title">درباره من</string>
+    <string name="about_me_message">مرتضی عاملی بیدار</string>
+    <string name="contact_me_title">تماس با من</string>
+    <string name="contact_me_message">mortezaameli1372@yahoo.com</string>
+    <string name="website_url">http://www.google.com</string>
+    <string name="btn_back">بازگشت</string>
+    <string name="title_txt">Title</string>
+    <string name="author_txt">Author</string>
+    <string name="date_txt">Date</string>
+    <string name="search_question">متن مورد نظر ....</string>
+    <string name="search_by_title">جستجو بر اساس عنوان</string>
+    <string name="search_by_content">جستجو بر اساس محتوا</string>
+    <string name="search_by_author">جستجو بر اساس نویسنده</string>
+    
+    
+</resources>

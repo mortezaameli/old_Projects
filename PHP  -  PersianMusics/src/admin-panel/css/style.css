@@ -1,0 +1,395 @@
+@font-face
+{
+	font-family:"B Koodak";
+	src:url('../../font/BKoodkBd.ttf');
+}
+
+body
+{
+	margin:0;
+	direction:rtl;
+}
+
+.clr
+{
+	clear:both;
+}
+
+/*Header*/
+#header
+{
+	width: 100%;
+	height: 50px;
+	background-color: #888;
+	box-shadow:1px 1px 3px #000;
+}
+
+#link-site
+{
+	margin-right:60px;
+	position:relative;
+	top:30px;
+	text-decoration:none;
+	color:#9ED0FC;
+	font-family:'B koodak' ,tahoma;
+	font-size:25px;
+	box-shadow:0px 0px 5px #CCC;
+	padding:3px;
+}
+
+/*Menu*/
+#menu-bar
+{
+	width: 250px;
+	height: 1000px;
+	background-color:#888;
+	border-left:1px solid #000;
+}
+
+#menu-bar ul
+{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	width: 250px;
+	position:absolute;
+	margin-top:100px;
+}
+
+#menu-bar ul li
+{
+	background-color:#111;/*F8F8F8*/
+	margin-left:0px;
+	border-bottom:1px solid #E7E7E7;
+	position:relative;
+}
+
+#menu-bar ul li:first-child
+{
+	border-top:1px solid #E7E7E7;
+}
+
+#menu-bar ul li a
+{
+	text-decoration:none;
+	display:block;
+	text-indent:70px;
+	padding:5px;
+	color:#337AB7;
+	font-size:18px;
+	font-family: 'B Koodak', tahoma;
+}
+
+#menu-bar ul li a:hover, #menu-bar ul li a:focus
+{
+	background-color:#AAA;
+	color:#23527C;
+}
+
+#menu-bar ul li img
+{
+	position:absolute;
+	top:10px;
+	right:25px;
+	
+}
+
+/*Left Triangle*/
+#news-triangle, #musics-triangle, #user-triangle
+{
+	width:0;
+	height:0;
+	position:absolute;
+	border-top:15px solid transparent;
+	border-bottom:15px solid transparent;
+	border-left:10px solid #CCC;
+}
+
+#news-triangle
+{
+	top:100px;
+	right:-10px;
+}
+
+#musics-triangle
+{
+	top:140px;
+	right:-10px;
+}
+
+#user-triangle
+{
+	top:180px;
+	right:-10px;
+}
+
+/*Content Page*/
+#news-content, #musics-content, #user-content
+{
+	width:900px;
+	/*height:900px;*/
+	position:absolute;
+	top:60px;
+	right:265px;
+	background-color:#CCC;
+	padding-bottom:50px;
+	/*display:none;*/
+}
+
+.exit-content-pic
+{
+	position:absolute;
+	top:8px;
+	right:8px;
+}
+
+
+/*Bottom Triangle*/
+#add-news-box-triangle ,#display-news-box-triangle,
+#add-musics-box-triangle ,#display-musics-box-triangle
+{
+	width:0;
+	height:0;
+	position:absolute;
+	border-left:15px solid transparent;
+	border-right:15px solid transparent;
+	border-bottom:10px solid #EEE;
+}
+
+#add-news-box-triangle,
+#add-musics-box-triangle
+{
+	top:-10px;
+	right:190px;
+}
+
+#display-news-box-triangle,
+#display-musics-box-triangle
+{
+	top:-10px;
+	right:573px;
+}
+
+/*Add & Display Button*/
+#add-news-btn, #display-news-btn,
+#add-musics-btn, #display-musics-btn
+{
+	width:249px;
+	background-color:#111;
+	margin-right:134px;
+	margin-top:32px;
+	float:right;
+	text-align:center;
+	
+}
+
+#add-news-btn a, #display-news-btn a,
+#add-musics-btn a, #display-musics-btn a
+{
+	text-decoration:none;
+	display:block;
+	padding:5px;
+	color:#337AB7;
+	font-size:18px;
+	font-family: 'B Koodak', tahoma;
+	
+}
+
+#add-news-btn a:hover, #display-news-btn a:hover, #add-news-btn a:focus, #display-news-btn a:focus,
+#add-musics-btn a:hover, #display-musics-btn a:hover, #add-musics-btn a:focus, #display-musics-btn a:focus
+{
+	cursor:pointer;
+	background-color:#AAA;
+	color:#23527C;
+}
+
+/*Add & Display Box*/
+#add-news-box, #display-news-box,
+#add-musics-box, #display-musics-box,
+#display-user-box
+{
+	width:800px;
+	/*height:400px;*/
+	margin:auto;
+	margin-top:10px;
+	background-color:#EEE;
+	position:relative;
+	/*display:none;*/
+	border:1px solid transparent;
+}
+
+#display-user-box/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+{
+	display:block;
+	height:400px;
+}
+/*///////////////////////////////////////////////////////*/
+/*#add-news-box, #news-content{display:block;}*/
+/*///////////////////////////////////////////////////////*/
+
+.exit-box-pic
+{
+	position:absolute;
+	top:8px;
+	right:8px;
+}
+
+/*Form For News & Musics*/
+#news-title-area, #news-text-area, #news-group-area,
+#misic-name-area, #songer-name-area, #music-group-area
+{
+	direction:rtl;
+	width: 750px;
+	display:block;
+	resize:none;
+	margin:auto;
+	font-size:14px;
+	font-family: tahoma;
+	color:#111;
+}
+
+#news-title-area
+{
+	height: 42px;
+	margin-top:40px;
+}
+
+#news-text-area
+{
+	height: 196px;
+	margin-top:10px;
+}
+
+#news-group-area
+{
+	height: 42px;
+	margin-top:10px;
+}
+
+#news-submit-btn, #music-submit-btn
+{
+	width:100px;
+	height:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:350px;
+	color:#337AB7;
+	font-size:18px;
+	font-family: 'B Koodak', tahoma;
+}
+
+#misic-name-area
+{
+	height: 25px;
+	margin-top:40px;
+}
+
+#songer-name-area, #music-group-area
+{
+	height: 25px;
+	margin-top:10px;
+}
+
+/**/
+.fileUpload {
+	
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+	margin-bottom:0px;
+	padding:8px;
+	display:inline-block;
+	background-color:rgba(7,0,54,0.80);
+	color:#EEE;
+	font-family: 'B Koodak', tahoma;
+	font-size:16px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+#upload-image-File, #upload-audio-File
+{
+	position:relative;
+	top:-20px;
+	font-family:tahoma;
+	font-size:14px;
+	width:500px;
+}
+
+#upload-image-File
+{
+	right:5px;
+}
+/**/
+
+/*news-table*/
+.display-table
+{
+	direction:rtl;
+	width:750px;
+	margin:auto;
+	border:4px solid #999;
+	margin-top:50px;
+	margin-bottom:30px;
+	border-radius:5px;
+	color:#444;
+	font-size:15px;
+	font-family: 'B Koodak', tahoma;
+	text-align:center;
+}
+
+.display-table td
+{
+	border:1px solid #999;
+	padding:8px;
+}
+
+.display-table tr:nth-child(odd) td
+{
+	background-color:#FFF;
+}
+
+.display-table tr:nth-child(even) td
+{
+	background-color:#DDD;
+}
+
+.display-table tr:nth-child(1) td
+{
+	background-color:#222;
+	font-family: 'B Koodak', tahoma;
+	padding:12px;
+	color:#EEE;
+}
+
+/*active passive delete news label*/
+#is-active-news, #is-passive-news, #delete-news-label,
+#is-active-song, #is-passive-song, #delete-song-label,
+#is-active-user, #is-passive-user, #delete-user-label
+{
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#is-active-news, #is-active-song, #is-active-user
+{
+	color:#888;
+}
+
+#is-passive-news, #is-passive-song, #is-passive-user
+{
+	color:#0171AF;
+}
+
+#delete-news-label, #delete-song-label, #delete-user-label
+{
+	color:#DF0003;
+}
