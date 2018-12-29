@@ -2,10 +2,10 @@
 -------------------------------------------
 
 Used Symbol:
-#  :  Wall
-.  :  Empty space
-@  :  Box
-X  :  The position where boxes are located
+<p>#  :  Wall</p>
+<p>.  :  Empty space</p>
+<p>@  :  Box</p>
+<p>X  :  The position where boxes are located</p>
 -------------------------------------------
 
 Input test case:
