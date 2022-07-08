@@ -1,1 +1,1 @@
-This repository store my CV Project
+## My old university and freelance projects
